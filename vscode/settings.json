@@ -1,0 +1,19 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.tabSize": 2,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "prettier.eslintIntegration": true,
+    "prettier.semi": false,
+    "prettier.trailingComma": "all",
+    "prettier.useTabs": true,
+    "eslint.packageManager": "yarn",
+    "csharp.suppressDotnetInstallWarning": true,
+    "extensions.ignoreRecommendations": false,
+    "window.zoomLevel": 0
+}
