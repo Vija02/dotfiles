@@ -1,0 +1,29 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "My personal dotfiles",
+  "main": "install.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vija02/dotfiles.git"
+  },
+  "keywords": [
+    "dotfiles",
+    "ubuntu",
+    "linux"
+  ],
+  "author": "Vija02",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vija02/dotfiles/issues"
+  },
+  "homepage": "https://github.com/Vija02/dotfiles#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "execa": "^0.10.0",
+    "inquirer": "^6.0.0"
+  }
+}
