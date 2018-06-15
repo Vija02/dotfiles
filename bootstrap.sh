@@ -37,7 +37,7 @@ DOTFILES=$HOME/dotfiles
 
 # Clone repo
 if [ -d "$DOTFILES" ]; then
-  rm -r dotfiles
+  rm -rf dotfiles
 fi
 git clone https://github.com/Vija02/dotfiles.git ~/dotfiles
 
