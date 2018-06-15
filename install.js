@@ -15,8 +15,8 @@ console.log(
 	),
 )
 
-console.log(chalk.blue(`You are about to transform this desktop into something amazing.`))
-console.log(chalk.blue(`But before that, I respect your decision so choose away `) + chalk.white(`m(￢0￢)m`))
+console.log(chalk.cyan(`You are about to transform this desktop into something amazing.`))
+console.log(chalk.cyan(`But before that, I respect your decision so choose away `) + chalk.white(`m(￢0￢)m`))
 console.log()
 
 inquirer
