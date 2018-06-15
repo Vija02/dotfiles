@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euxo pipefail
+set -euo pipefail
 
 # This script is to get the repo and install prerequisites.
 # Currently only made for Ubuntu Linux in mind (Probably a relatively newer version as well).
