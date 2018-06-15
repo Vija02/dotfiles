@@ -7,11 +7,13 @@ else
   IS_HEADLESS=0
 fi
 
-PACKAGES=$(xargs < "~/dotfiles/packages/apt-packages-headless")
+DOTFILES=$HOME/dotfiles
+
+PACKAGES=$(xargs < "$DOTFILES/packages/apt-packages-headless")
 if [ "$IS_HEADLESS" != 1 ]; then
   # GUI-only packages
-  PACKAGES="$PACKAGES $(xargs < "~/dotfiles/packages/apt-packages-essentials")"
-  # PACKAGES="$PACKAGES $(xargs < "~/dotfiles/packages/apt-packages")"
+  PACKAGES="$PACKAGES $(xargs < "$DOTFILES/packages/apt-packages-essentials")"
+  # PACKAGES="$PACKAGES $(xargs < "$DOTFILES/packages/apt-packages")"
 fi
 
 sudo apt -fuy install $PACKAGES
