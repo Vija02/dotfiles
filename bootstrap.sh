@@ -37,12 +37,12 @@ DOTFILES=$HOME/dotfiles
 
 # Clone repo
 if [ -d "$DOTFILES" ]; then
-  rm -rf dotfiles
+  rm -rf "$DOTFILES"
 fi
-git clone https://github.com/Vija02/dotfiles.git ~/dotfiles
+git clone https://github.com/Vija02/dotfiles.git "$DOTFILES"
 
 # Run install
-cd ~/dotfiles
+cd "$DOTFILES"
 
 echo "$(tput setaf 3)↪ Installing dependencies...$(tput sgr0)"
 
