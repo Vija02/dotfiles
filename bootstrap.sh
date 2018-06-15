@@ -33,6 +33,8 @@ sudo apt update && sudo apt install --no-install-recommends yarn
 
 echo "$(tput setaf 3)↪ Cloning repo...$(tput sgr0)"
 
+DOTFILES=$HOME/dotfiles
+
 # Clone repo
 if [ -d "$DOTFILES" ]; then
   rm -r dotfiles
