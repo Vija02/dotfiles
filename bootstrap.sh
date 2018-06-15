@@ -34,6 +34,9 @@ sudo apt update && sudo apt install --no-install-recommends yarn
 echo "$(tput setaf 3)↪ Cloning repo...$(tput sgr0)"
 
 # Clone repo
+if [ -d "$DOTFILES" ]; then
+  rm -r dotfiles
+fi
 git clone https://github.com/Vija02/dotfiles.git ~/dotfiles
 
 # Run install
