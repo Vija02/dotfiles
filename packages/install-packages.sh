@@ -28,19 +28,19 @@ for package in $PACKAGES; do
   elif [ "$package" = "vlc" ]; then
     add-apt-repository ppa:videolan/master-daily
     sudo apt update
-    sudo apt install vlc qtwayland5
+    sudo apt -fuy install vlc qtwayland5
   elif [ "$package" = "chrome" ]; then
     wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
     sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
     sudo apt update
-    sudo apt install -y google-chrome-stable
+    sudo apt -fuy install google-chrome-stable
   elif [ "$package" = "vscode" ]; then
     curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
     sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
     sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 
     sudo apt update
-    sudo apt install code
+    sudo apt -fuy install code
   else
     PACKAGES_TO_INSTALL="$PACKAGES_TO_INSTALL $package"
   fi
