@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Guild Wars 2
+Comment=
+Type=Application
+Exec=./gw2
+Icon=/home/vija02/.PlayOnLinux//icones/full_size/Guild Wars 2
+StartupWMClass=Gw2-64.exe
+Categories=Game;RolePlaying;
+X-XFCE-Source=file:///home/vija02/Desktop/Guild%20Wars%202.desktop
+Path=/home/vija02/Games
+Terminal=false
+StartupNotify=false

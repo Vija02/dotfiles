@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Stardew Valley
+Comment=
+Exec=./StardewModdingAPI
+Icon=steam_icon_413150
+Terminal=true
+Type=Application
+Categories=Game;
+X-XFCE-Source=file:///home/vija02/Desktop/Stardew%20Valley.desktop
+Path=/home/vija02/.steam/steam/steamapps/common/Stardew Valley/
+StartupNotify=false

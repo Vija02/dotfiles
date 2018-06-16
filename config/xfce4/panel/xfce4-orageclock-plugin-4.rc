@@ -1,0 +1,14 @@
+show_frame=false
+fg_set=false
+bg_set=true
+bg=65535R 65535G 65535B
+timezone=
+width_set=false
+height_set=false
+lines_vertically=false
+rotation=0
+data0=%A %d %B %R
+font0=Sans 12
+tooltip=%A %d %B %Y/%V
+hib_timing=false
+
