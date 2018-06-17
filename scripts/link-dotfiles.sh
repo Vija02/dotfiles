@@ -1,3 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+
 source "$HOME/dotfiles/scripts/helpers.sh"
 
 for file in $DOTFILES/symlinks/*; do
