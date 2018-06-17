@@ -13,7 +13,7 @@ sudo apt upgrade
 echo "$(tput setaf 3)↪ Installing some essential packages...$(tput sgr0)"
 
 # Essentials
-sudo apt install -y curl wget
+sudo apt install -y curl wget make
 
 # Git
 sudo apt install -y git
