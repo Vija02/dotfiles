@@ -1,0 +1,2 @@
+[alias]
+	unstash = stash pop
