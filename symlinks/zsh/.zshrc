@@ -6,7 +6,6 @@ ZSH_THEME="agnoster"
 MAGIC_ENTER_GIT_COMMAND='git status -u .'
 MAGIC_ENTER_OTHER_COMMAND='ll'
 
-ENABLE_CORRECTION="true"
 plugins=(
   git
   nvm
