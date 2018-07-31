@@ -20,3 +20,4 @@ source $ZSH/oh-my-zsh.sh
 
 # Custom stuff
 source ~/.zsh/aliases.zsh
+source ~/.zsh/functions.zsh
