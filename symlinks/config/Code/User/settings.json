@@ -15,5 +15,7 @@
     "eslint.packageManager": "yarn",
     "csharp.suppressDotnetInstallWarning": true,
     "extensions.ignoreRecommendations": false,
-    "window.zoomLevel": -0.001
+    "window.zoomLevel": -0.001,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "git.confirmSync": false
 }
