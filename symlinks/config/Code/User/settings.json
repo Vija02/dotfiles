@@ -17,5 +17,6 @@
     "extensions.ignoreRecommendations": false,
     "window.zoomLevel": -0.001,
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "search.usePCRE2": true
 }
