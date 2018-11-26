@@ -1,0 +1,5 @@
+rofi.combi-modi:    window,run
+rofi.theme: /usr/share/rofi/themes/DarkBlue.rasi
+rofi.modi:          combi
+rofi.font:          hack 10
+
