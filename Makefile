@@ -7,6 +7,11 @@ oh-my-zsh:
 shell-utilites:
 	yay -S --noconfirm --needed - < scripts/shell-utilities
 
+# Hmm, don't think I'll ever use this, but welp
+# Most likely just going to copy and paste the last few lines
+fstab:
+	stow fstab -d symlinks -t /
+
 vscode:
 	yay -S --noconfirm --needed visual-studio-code-bin
 	stow vscode -d symlinks -t ~/
