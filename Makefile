@@ -1,13 +1,11 @@
-default: install-packages oh-my-zsh-setup link-dotfiles
+default: oh-my-zsh shell-utilities vscode
 
-install-packages:
-	packages/install-packages.sh
+oh-my-zsh:
+	yay -S --noconfirm --needed oh-my-zsh-git powerline-fonts
+	stow zsh -d symlinks -t ~/
 
-oh-my-zsh-setup:
-	scripts/oh-my-zsh-setup.sh
-
-link-dotfiles:
-	scripts/link-dotfiles.sh
+shell-utilites:
+	yay -S --noconfirm --needed - < scripts/shell-utilities
 
 vscode:
 	yay -S --noconfirm --needed visual-studio-code-bin
