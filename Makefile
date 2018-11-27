@@ -8,3 +8,8 @@ oh-my-zsh-setup:
 
 link-dotfiles:
 	scripts/link-dotfiles.sh
+
+vscode:
+	yay -S --noconfirm --needed visual-studio-code-bin
+	stow vscode -d symlinks -t ~/
+	DOTFILES=$(shell pwd) bash scripts/vscode-setup.sh
