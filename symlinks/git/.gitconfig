@@ -1,2 +1,11 @@
+[user]
+	email = salim_michaelmi@yahoo.com
+	name = Michael Salim
+	username = vija02
+
 [alias]
+	a = add --all
+	cm = commit -m
+
 	unstash = stash pop
+	rv = remote -v
