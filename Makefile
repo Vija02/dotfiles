@@ -1,8 +1,14 @@
 default: oh-my-zsh shell-utilities vscode
 
+# Install stuff first cause oh-my-zsh aliases some commands
+terminal: shell-utilities oh-my-zsh git
+
 oh-my-zsh:
 	yay -S --noconfirm --needed oh-my-zsh-git powerline-fonts
 	stow zsh -d symlinks -t ~/
+
+git:
+	stow git -d symlinks -t ~/
 
 shell-utilites:
 	yay -S --noconfirm --needed - < scripts/shell-utilities
