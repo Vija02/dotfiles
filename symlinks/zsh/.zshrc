@@ -14,6 +14,7 @@ plugins=(
   docker
   docker-compose
   magic-enter
+  autojump
 )
 
 source $ZSH/oh-my-zsh.sh
