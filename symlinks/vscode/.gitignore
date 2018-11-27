@@ -1,0 +1,15 @@
+# Self explanatory
+Backups/
+Cookies*
+GPUCache/
+Cache*
+Local Storage/
+
+# Probably not needed
+Preferences
+machineid
+workspaceStorage/
+
+# Not so sure about these
+languagepacks.json
+storage.json
