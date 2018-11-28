@@ -15,8 +15,14 @@ vscode:
 	make stow-vscode
 	DOTFILES=$(shell pwd) bash scripts/vscode-setup.sh
 
+# ============================
+# ======== Stow stuff ========
+# ============================
+
 stow-%:
 	stow $* -d symlinks -t ~/
+
+# After this will probably only be stow overrides
 
 # Hmm, don't think I'll ever use this, but welp
 # Most likely just going to copy and paste the last few lines
