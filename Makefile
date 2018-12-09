@@ -10,7 +10,7 @@ oh-my-zsh:
 	yay -S --noconfirm --needed oh-my-zsh-git powerline-fonts
 	make stow-zsh
 
-shell-utilites:
+shell-utilities:
 	yay -S --noconfirm --needed - < scripts/shell-utilities
 
 vscode:
