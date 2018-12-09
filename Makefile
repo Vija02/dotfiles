@@ -1,7 +1,10 @@
 default: oh-my-zsh shell-utilities vscode
 
 # Install stuff first cause oh-my-zsh aliases some commands
-terminal: shell-utilities oh-my-zsh git
+terminal: shell-utilities oh-my-zsh stow-git
+
+# This assumes i3 is installed for now, also the other stuff I use
+i3: stow-tilix stow-rofi stow-dunst
 
 oh-my-zsh:
 	yay -S --noconfirm --needed oh-my-zsh-git powerline-fonts
