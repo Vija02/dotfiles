@@ -32,7 +32,7 @@ case "$lsb_dist" in
 		yay -Syu
 		
 	        echo "$(tput setaf 3)↪ Installing some essential packages...$(tput sgr0)"
-		yay -S --noconfirm --needed curl wget make git
+		yay -S --noconfirm --needed curl wget make git stow
 
 	        echo "$(tput setaf 3)↪ Installing NodeJS stuff...$(tput sgr0)"
 		# Something was wrong with the AUR package, so lets just use the official method
