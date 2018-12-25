@@ -23,3 +23,4 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/functions.zsh
 source ~/.zsh/dircolors.zsh
+source ~/.zsh/arch.zsh
