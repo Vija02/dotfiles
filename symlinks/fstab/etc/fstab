@@ -11,12 +11,15 @@
 UUID=0E03-4468                            /boot/efi             vfat    defaults,noatime 		0 2
 UUID=4d892cce-eda1-4c4c-92d4-39b896964ebd /                     ext4    defaults,noatime,discard 	0 1
 UUID=9cc16340-e2c8-403e-98bd-427ba77326c3 swap                  swap    defaults,noatime,discard 	0 2
-UUID=7b9e9dc0-7b09-4a25-90ba-0c7c0060bc94 swap           	swap    defaults,noatime 		0 2
 tmpfs                                     /tmp           	tmpfs   defaults,noatime,mode=1777 	0 0
 
 # HDD
 UUID=F89C4DA49C4D5E6E                     /mnt/d         	ntfs    defaults,noatime,nofail 	0 0
 UUID=0804C6E504C6D53A                     /mnt/f         	ntfs    defaults,noatime,nofail 	0 0
+UUID=6674D9895BB59CD8                     /mnt/pictures         ntfs    defaults,noatime,nofail         0 0
+UUID=54319E7F67754D2B                     /mnt/music            ntfs    defaults,noatime,nofail         0 0
+UUID=0382EE8319832F93                     /mnt/videos           ntfs    defaults,noatime,nofail         0 0
+UUID=55F01FE8046AEF36                     /mnt/downloads        ntfs    defaults,noatime,nofail         0 0
 
 # Linux stuff
 UUID=fb841ec1-fdf4-4765-b1eb-88de72a59464 /home/vija02/projects ext4 	defaults,noatime,nofail 	0 0
