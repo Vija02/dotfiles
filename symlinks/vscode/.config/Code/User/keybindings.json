@@ -1,6 +1,10 @@
 // Place your key bindings in this file to overwrite the defaults
 [
   {
+    "key": "ctrl+q",
+    "command": "-workbench.action.quit"
+  },
+  {
     "key": "ctrl+alt+d",
     "command": "bookmarks.toggle",
     "when": "editorTextFocus"
@@ -11,7 +15,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+alt+m",
+    "key": "ctrl+alt+e",
     "command": "bookmarks.jumpToNext",
     "when": "editorTextFocus"
   },
@@ -21,7 +25,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+alt+n",
+    "key": "ctrl+alt+q",
     "command": "bookmarks.jumpToPrevious",
     "when": "editorTextFocus"
   },
