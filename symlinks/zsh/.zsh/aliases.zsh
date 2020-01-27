@@ -6,7 +6,6 @@ alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias xclip='xclip -selection clipboard'
 
 # Git
-alias gogo='git push -u origin HEAD'
 alias fp='git fetch && git pull'
 
 # Other programs (needs installation)

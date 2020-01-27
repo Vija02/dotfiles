@@ -6,3 +6,8 @@ function killport(){
 function dps(){ 
 	docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}\t{{.Status}}" | (read -r; printf "%s\n" "$REPLY"; sort -k 2 ) 
 }
+
+function gogo(){
+	BRANCH=$(git branch | grep \* | cut -d ' ' -f2)
+	git push -u origin $BRANCH
+}
