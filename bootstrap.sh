@@ -24,10 +24,6 @@ lsb_dist=$( get_distribution )
 
 case "$lsb_dist" in
 	manjaro) 
-		echo "$(tput setaf 3)↪ Installing yay(pacman wrapper)...$(tput sgr0)"
-		# Install yay (to replace yaourt)
-		yaourt -S --noconfirm --needed yay-bin
-
 	        echo "$(tput setaf 3)↪ Making sure packages are up to date...$(tput sgr0)"
 		yay -Syu
 		
