@@ -9,3 +9,5 @@
 
 	unstash = stash pop
 	rv = remote -v
+[pull]
+	rebase = false
