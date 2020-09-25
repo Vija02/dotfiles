@@ -7,6 +7,8 @@ alias xclip='xclip -selection clipboard'
 
 # Git
 alias fp='git fetch && git pull'
+alias branch="git branch | awk -F: '{print $1}'"
+alias gb="git branch | awk -F: '{print $1}'"
 
 # Other programs (needs installation)
 alias git=hub
