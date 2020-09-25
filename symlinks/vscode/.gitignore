@@ -5,10 +5,21 @@ GPUCache/
 Cache*
 Local Storage/
 
+globalStorage/
+
 # Probably not needed
 Preferences
+blob_storage/
+Dictionaries/
 machineid
 workspaceStorage/
+Code Cache/
+Crash Reports/
+exthost Crash Reports/
+Session Storage/
+.org.chromium*
+Network Persistent State
+TransportSecurity
 
 # Not so sure about these
 languagepacks.json
