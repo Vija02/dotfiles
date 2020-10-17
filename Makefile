@@ -4,7 +4,10 @@ default: oh-my-zsh shell-utilities vscode
 terminal: shell-utilities oh-my-zsh stow-git
 
 # This assumes i3 is installed for now, also the other stuff I use
-i3: stow-tilix stow-rofi stow-dunst
+i3: i3-install stow-tilix stow-rofi stow-dunst
+
+i3-install:
+	yay -S --noconfirm --needed tilix-bin rofi dunst
 
 oh-my-zsh:
 	yay -S --noconfirm --needed oh-my-zsh-git powerline-fonts
