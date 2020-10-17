@@ -11,5 +11,4 @@ alias branch="git branch | awk -F: '{print $1}'"
 alias gb="git branch | awk -F: '{print $1}'"
 
 # Other programs (needs installation)
-alias git=hub
 alias ranger='source ranger'
