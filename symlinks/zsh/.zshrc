@@ -31,3 +31,10 @@ do
       . ${i}
   fi
 done
+
+# Change prompt color if it is SSH connection
+prompt_context() {
+  if [[ -n $SSH_CONNECTION ]]; then
+    prompt_segment red black "%(!.%{%F{yellow}%}.)%n@%m"
+  fi
+}
