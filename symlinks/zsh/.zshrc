@@ -36,5 +36,7 @@ done
 prompt_context() {
   if [[ -n $SSH_CONNECTION ]]; then
     prompt_segment red black "%(!.%{%F{yellow}%}.)%n@%m"
+  else
+    prompt_segment black default "%(!.%{%F{yellow}%}.)%n@%m"
   fi
 }
