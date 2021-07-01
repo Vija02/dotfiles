@@ -3,7 +3,7 @@ if command -v pacman > /dev/null; then
 
   # JI(Just install for me pls)
   function ji(){
-    yay -S --noconfirm "$1"
+    yay -Syy --noconfirm "$1"
   }
 
 fi
