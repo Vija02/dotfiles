@@ -9,6 +9,8 @@ alias xclip='xclip -selection clipboard'
 alias fp='git fetch && git pull'
 alias branch="git branch | awk -F: '{print $1}'"
 alias gb="git branch | awk -F: '{print $1}'"
+alias fr="git fetch && git rebase origin/$(git rev-parse --abbrev-ref HEAD)"
+alias whoops="git reset HEAD~"
 
 # Other programs (needs installation)
 alias ranger='source ranger'
