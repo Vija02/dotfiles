@@ -1,9 +1,7 @@
 {
     "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
     "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "vscode-icons",
     "editor.tabSize": 2,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
@@ -15,9 +13,18 @@
     "eslint.packageManager": "yarn",
     "csharp.suppressDotnetInstallWarning": true,
     "extensions.ignoreRecommendations": false,
-    "window.zoomLevel": -0.001,
     "javascript.updateImportsOnFileMove.enabled": "never",
     "git.confirmSync": false,
     "workbench.editor.limit.value": 10,
     "workbench.editor.limit.enabled": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "git.enableSmartCommit": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.inlineSuggest.enabled": true,
 }
