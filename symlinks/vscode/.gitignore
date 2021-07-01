@@ -20,7 +20,12 @@ Session Storage/
 .org.chromium*
 Network Persistent State
 TransportSecurity
+databases/
+Service Worker/
+QuotaManager
+QuotaManager-journal
 
 # Not so sure about these
 languagepacks.json
 storage.json
+rapid_render.json
