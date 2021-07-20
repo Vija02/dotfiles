@@ -20,8 +20,6 @@ touch ~/.zsh.d/local.zsh
 rm -f ~/.zshrc
 make stow-zsh
 
-sudo su <<HERE
-export ZSH="/usr/share/oh-my-zsh"; sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended --keep-zshrc
-HERE
+sudo bash scripts/oh-my-zsh-setup.sh
 
 sudo chsh -s /bin/zsh $USER
