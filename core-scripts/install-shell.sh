@@ -1,13 +1,19 @@
 #!/bin/bash
 set -euo pipefail
 
-sudo apt install -y \
-  zsh fonts-powerline \
-  git stow make \ # Stuff the installer needs
-  autojump \ # Stuff our config uses
-  nano # Stuff that i expect to be there
+args=(
+  zsh fonts-powerline
+  # Stuff the installer needs
+  git stow make
+  # Stuff our config uses
+  autojump
+  # Stuff that i expect to be there
+  nano
+)
 
-mkdir ~/.zsh.d/
+sudo apt install -y "${args[@]}"
+
+mkdir -p ~/.zsh.d/
 touch ~/.zsh.d/local.zsh
 
 # Copy the config first so we don't need to deal with replacing it later
